@@ -5,5 +5,6 @@ class Dog
   def initialize(name)
     @name = name
     @mood = "nervous"
+    @owner = Owner.new("Hermione")
   end
 end
